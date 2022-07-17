@@ -1,0 +1,338 @@
+/*imported font-ներմուծված ֆոնտ*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+
+/*animation-անիմացիա*/
+.ball {
+  position:fixed;
+  border-radius: 100%;
+  opacity: 1;
+}
+
+body {
+  background-image: url(https://thumbs.dreamstime.com/b/%D1%81%D0%BF%D0%B8%D1%80%D0%B0%D0%BB%D1%8C-%D1%81%D0%BE%D0%BB%D0%BD%D0%B5%D1%87%D0%BD%D0%BE%D0%B3%D0%BE-%D1%81%D0%B2%D0%B5%D1%82%D0%B0-%D0%B8%D0%B7%D0%BB%D1%83%D1%87%D0%B0%D0%B5%D1%82-%D1%84%D0%BE%D0%BD-%D0%B3%D0%BE%D0%BB%D1%83%D0%B1%D0%B0%D1%8F-%D0%B8-%D0%B1%D0%B5%D0%BB%D0%B0%D1%8F-%D1%81%D0%B8%D0%B3%D0%BD%D0%B0%D0%BB%D0%B0-195962027.jpg);
+  background-repeat: no-repeat;
+  background-size: 1550px;
+
+}
+
+/*heder-վերնագիր*/
+.ttt {
+  font-family: 'Lemon', cursive;
+  font-size: 20px;
+  color: red;
+  text-align: center;
+  background: white;
+  height: 60px;
+  width: 400px;
+  margin-left: 570px;
+
+}
+
+
+/*Top block-Վերևի բլոկ*/
+.icon {
+  display: block;
+  background: #c9f2fb;
+  height: 200px;
+  width: 944px;
+  margin: 265px;
+  margin-top: 30px;
+  border: 6px ridge aqua;
+
+}
+
+/*icon1 REDSTOR*/
+.icon1 {
+  margin-top: 10px;
+  margin-left: 12px;
+  height: 40px;
+  width: 148px;
+  border: 7px ridge rgb(136, 136, 244);
+  background: white;
+
+}
+
+/*Top block buttons-Վերևի բլոկի կնոպկաներ */
+
+ul {
+  list-style-type: none;
+  text-align: center;
+  margin-top: -65px;
+  margin-left: 270px;
+}
+
+.butt1 {
+  padding: 5px 15px;
+  font-size: 19px;
+  cursor: pointer;
+  text-align: center;
+  font-family: 'Lemon', cursive;
+  color: #fff;
+  background-color: rgb(113, 113, 239);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 6px yellow;
+}
+
+.butt1:hover {
+  background-color: #df00df
+}
+
+.butt1:active {
+  background-color: orangered;
+  box-shadow: 0 5px rgb(93, 93, 245);
+  transform: translateY(4px);
+}
+
+/*պայուսակի նկար*/
+.bag {
+  height: 26px;
+  width: 26px;
+}
+
+.all {
+  font-family: 'Lemon', cursive;
+  margin-top: -32px;
+  font-size: 25px;
+  margin-left: 10px;
+  color: rgb(85, 85, 236);
+}
+
+/*product list button-ապրանքի ցանկի կնոպկա*/
+select {
+  margin-left: 743px;
+  margin-top: 80px;
+  border: 6px ridge rgb(136, 136, 244);
+  background: rgb(247, 247, 166);
+  text-align: center;
+  font-family: 'Lemon', cursive;
+}
+
+/* Bottom block-2, pictures-Ներքևի բլոկ-2, նկարներ*/
+
+.row {
+  display: flex;
+  /*անվանում են flexbox, նկարները իրար կողք տեղադրելու համար*/
+  margin-left: 263px;
+  background: white;
+  height: 160px;
+  width: 80px;
+}
+
+.column {
+  flex: 25%;
+  background-size: 1600px 800px;
+  border: 6px ridge aqua;
+  text-align: center;
+  background: white;
+  margin-top: -265px;
+
+}
+
+.bluz1 {
+  height: 300px;
+  width: 220px;
+}
+
+.shoes {
+  height: 300px;
+  width: 230px;
+}
+
+.pants {
+  height: 300px;
+  width: 230px;
+
+}
+
+.bluz2 {
+  height: 300px;
+  width: 230px;
+}
+
+/*To remove the bottom line of a link-Լինքի ներքևի գիծը հանելու համար*/
+a:link {
+  text-decoration: none;
+}
+
+/*Bottom block-2 stars-Ներքևի բլոկ-2-ի աստղեր*/
+
+.star-rating {
+  display: flex;
+  align-items: center;
+  width: 160px;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin: 40px auto;
+  position: relative;
+}
+
+/* hide the inputs */
+.star-rating input {
+  display: none;
+}
+
+/* set properties of all labels */
+.star-rating>label {
+  width: 30px;
+  height: 30px;
+  font-family: Arial;
+  font-size: 30px;
+  transition: 0.2s ease;
+  color: orange;
+
+}
+
+/* give label a hover state */
+.star-rating label:hover {
+  color: #ff69b4;
+  transition: 0.2s ease;
+
+}
+
+.star-rating label:active::before {
+  transform: scale(1.1);
+
+}
+
+/* set shape of unselected label */
+.star-rating label::before {
+  content: '\2606';
+  position: absolute;
+  top: 0px;
+  line-height: 26px;
+
+}
+
+/* set full star shape for checked label and those that come after it */
+.star-rating input:checked~label:before {
+  content: '\2605';
+}
+
+@-moz-document url-prefix() {
+  .star-rating input:checked~label:before {
+    font-size: 36px;
+    line-height: 21px;
+  }
+}
+
+/*Bottom block-3, pictures-Ներքևի բլոկ-3, նկարներ */
+
+.row2 {
+  display: flex;
+  margin-left: 263px;
+  background: white;
+  height: 160px;
+  width: 80px;
+  margin-top: 265px;
+}
+
+.column2 {
+  flex: 25%;
+  background-size: 1600px 800px;
+  border: 6px ridge aqua;
+  text-align: center;
+  background: white;
+  margin-top: -265px;
+
+}
+
+.bluz3 {
+  height: 300px;
+  width: 220px;
+  border-width: 50px;
+  outline: none;
+}
+
+.shoes2 {
+  height: 300px;
+  width: 230px;
+}
+
+.pants2 {
+  height: 300px;
+  width: 230px;
+
+}
+
+.bluz4 {
+  height: 300px;
+  width: 230px;
+}
+
+/*Bottom block-3 stars-Ներքևի բլոկ-3-ի աստղեր*/
+
+.star-rating2 {
+  display: flex;
+  align-items: center;
+  width: 160px;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin: 40px auto;
+  position: relative;
+}
+
+/* hide the inputs */
+.star-rating2 input {
+  display: none;
+}
+
+/* set properties of all labels */
+.star-rating2>label {
+  width: 30px;
+  height: 30px;
+  font-family: Arial;
+  font-size: 30px;
+  transition: 0.2s ease;
+  color: orange;
+}
+
+/* give label a hover state */
+.star-rating2 label:hover {
+  color: #ff69b4;
+  transition: 0.2s ease;
+}
+
+.star-rating2 label:active::before {
+  transform: scale(1.1);
+}
+
+/* set shape of unselected label */
+.star-rating2 label::before {
+  content: '\2606';
+  position: absolute;
+  top: 0px;
+  line-height: 26px;
+}
+
+/* set full star shape for checked label and those that come after it */
+.star-rating2 input:checked~label:before {
+  content: '\2605';
+}
+
+@-moz-document url-prefix() {
+  .star-rating2 input:checked~label:before {
+    font-size: 36px;
+    line-height: 21px;
+  }
+}
+
+/*bottom line and site endpoint-ներքևի գիծ և կայքի վերջնամաս*/
+hr {
+  border-top: 3px solid rgb(184, 118, 245);
+}
+
+footer {
+  text-align: center;
+  font-size: 20px;
+  color: rgb(108, 37, 173);
+}
+
+/*սա մեդիա է, օրինակ հեռախոսների դեպքում էկրանի լայնքը 600px-ից
+քիչ պետք է background-ի գույնը փոխի դեղին*/
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: yellow;
+  }
+}
