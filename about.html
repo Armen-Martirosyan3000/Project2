@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+ 
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: rgb(93, 93, 245);
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: blueviolet;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color:rgb(9, 222, 9);
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.aaa{
+  height: 40%;
+  width: 40%;
+  
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.butt{
+  color: black;
+}
+
+.butt1 {
+  padding: 5px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 90%;
+  color: #fff;
+  background-color: rgb(149, 227, 33);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 6px rgb(52, 50, 50);
+}
+
+.butt1:hover {
+  background-color: orange;
+  font-size: 18px;
+  box-shadow: 0 6px white;
+}
+
+
+.butt1:active {
+  background-color: orangered;
+  box-shadow: 0 5px rgb(40, 39, 39);
+  transform: translateY(4px);
+}
+
+</style>
+</head>
+<body>
+  
+<div class="about-section">
+  <button class="butt1">
+    <a href="index.html" target="_blank"><li class="butt">Home</li> </a>
+</button>
+  <h1>About Us Page</h1>
+  <p>
+    Our company is the best in menswear online shopping, both in terms of delivery speed and quality assurance
+  </p>
+  
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <div class="aaa">
+        <img src="https://img.favpng.com/25/8/13/gabriel-macht-suits-harvey-specter-michael-ross-television-show-png-favpng-yS4S9nSxARpMYwJQW5aFa1XUf_t.jpg">
+      </div>
+        <div class="container">
+          <h2>Mike Ross</h2>
+          <p class="title">Art Director</p>
+          <p>mike@example.com</p>
+          <p><button class="button">Contact</button></p>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+  <div class="column">
+    <div class="card">
+      <div class="aaa">
+        <img  src="../img1.png" alt="Armen" style="width:100%"></div>
+        <div class="container">
+          <h2>Armen Martirosyan</h2>
+          <p class="title">CEO & Founder</p>
+          <p>martirosyana268@gmail.com</p>
+          <p><button class="button">Contact</button></p>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+  
+  <div class="column">
+    <div class="card">
+      <div class="aaa">
+      <img src="https://img2.freepng.ru/20171201/309/businessman-png-image-5a2164879b2679.7601524915121378636355.jpg" alt="John" style="width:100%">
+    </div>
+      <div class="container">
+        <h2>John Doe</h2>
+        <p class="title">Designer</p>
+        <p>john@example.com</p>
+  
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

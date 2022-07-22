@@ -2,42 +2,107 @@
 <html>
 
 <head>
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index">
+    <meta name="robots" content="follow">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
     <link rel="stylesheet" href="styles.css">
     <title>Օnline Shopping</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Mediayi hamar-->
 </head>
 
 <body>
     <!--heder-վերնագիր -->
+    
+    <div class="ttt"> 
+        <h1><span>Օ</span>nline Shopping</h1>
+   </div>
+   
 
-    <div class="ttt">
-        <h1>Օnline Shopping</h1>
-    </div>
+
+
+
+
+
+
+
 
     <!-- Top block-Վերևի բլոկ -->
 
     <div class="icon">
+                 
 
         <!-- icon1 REDSTOR -->
 
         <img class="icon1" src="https://amarjeetprasad.github.io/Red-Store/images/logo.png">
 
+
+        <nav role="navigation">
+            <div id="menuToggle">
+              <!--
+              A fake / hidden checkbox is used as click reciever,
+              so you can use the :checked selector on it.
+              -->
+              <input type="checkbox" />
+              
+              <!--
+              Some spans to act as a hamburger.
+              
+              They are acting like a real hamburger,
+              not that McDonalds stuff.
+              -->
+              <span></span>
+              <span></span>
+              <span></span>
+              
+              <!--
+              Too bad the menu has to be inside of the button
+              but hey, it's pure CSS magic.
+              -->
+              <ul id="menu">
+                <a href="#"><li>Men's Blouse</li></a>
+                <a href="#"><li>Men's Sport Shoes</li></a>
+                <a href="#"><li>Man's sport pants</li></a>
+                <a href="#"><li>Info</li></a>
+                <a href="https://erikterwan.com/" target="_blank"><li>Show me more</li></a>
+              </ul>
+            </div>
+          </nav>
+
+
+
+
+
+
+
+
+
+
+        
+       
+
+
+
         <!--Top block buttons-Վերևի բլոկի կնոպկաներ -->
 
         <ul>
             <button class="butt1">
-                <li>Home</li>
+                <a href="home.html" target="_blank"><li class="butt">Home</li></a>
             </button>
             <button class="butt1">
-                <li>Products</li>
+                <a href="products.html" target="_blank"><li class="butt">Products</li></a>
             </button>
             <button class="butt1">
-                <li>About</li>
+                <a href="about.html" target="_blank"><li class="butt">About</li> </a>
             </button>
             <button class="butt1">
-                <li>Contact</li>
+                <a href="contact.html" target="_blank"><li class="butt">Contact</li></a>
             </button>
             <button class="butt1">
-                <li>Account</li>
+                <a href="account.html" target="_blank"><li class="butt">Account</li></a>
             </button>
             <button>
                 <li><img class="bag" src="https://i.pinimg.com/564x/e6/be/06/e6be06eb4fbdefd27503b1f55553acb9.jpg">
@@ -45,20 +110,34 @@
             </button>
         </ul>
 
+        
+
+
+
+
+
+
+
+
         <!--product list button-ապրանքի ցանկի կնոպկա  -->
 
-        <select>
-
-            <option value="3"> Men's Red Blouse </option>
-            <option value="4"> Sport Shoes </option>
-            <option value="5"> Gray Pants For Men </option>
-            <option value="6"> Men's Blouse </option>
-            <option value="7" selected>Men's Yellow Blouse</option>
-            <option value="6"> Red Pants For Men </option>
-            <option value="6"> Men's Yellow Blouse </option>
-        </select>
-        <h3 class="all">All Products</h3>
+      
+        
+   
+        <img name="add1" class="advertisement1">
+        <img class="advertisement2" src="https://media.istockphoto.com/photos/smiling-smart-casual-man-holding-shopping-bag-picture-id601928510?k=20&m=601928510&s=170667a&w=0&h=639Kgyx_F3h8PqmBuN2MshNXuRNWtOpnEb_rypf8Ziw=">
+        <img class="advertisement3" src="https://st2.depositphotos.com/1003369/6027/i/950/depositphotos_60275279-stock-photo-handsome-man-holding-shopping-bags.jpg">
+        <img name="add4" class="advertisement4"> 
+   
+   
     </div>
+
+
+
+
+
+    
+    
 
     <!-- Bottom block-2, pictures-Ներքևի բլոկ-2, նկարներ -->
     <div class="row">
@@ -66,7 +145,7 @@
         <div class="column">
             <a href="https://www.jackjones.com" target="blank">
                 <img class="bluz1" src="https://pa.namshicdn.com/product/19/5214/v1/1-zoom-desktop.jpg">
-                <h3> Men's Red Blouse 60$</h3>
+                <h3> Men's Red Blouse 80$</h3>
             </a>
             <!-- Bottom block-2 stars-Ներքևի բլոկ-2-ի աստղեր -->
             <div class="star-rating">
@@ -135,6 +214,44 @@
                 <label for="star-j"></label>
             </div>
         </div>
+
+        <div class="column">
+            <a href="https://www.adidas.com/us" target="blank">
+                <img class="shoes2"
+                    src="https://www.efootwear.eu/media/catalog/product/cache/image/650x650//0/0/0000206763426_03_rz.jpg">
+
+                <h3> Sport Shoes 110$ </h3>
+            </a>
+
+            <div class="star-rating">
+                <input type="radio" name="stars" id="star-k1" value="5" />
+                <label for="star-k1"></label>
+
+                <input type="radio" name="stars" id="star-l1" value="4" />
+                <label for="star-l1"></label>
+
+                <input type="radio" name="stars" id="star-m1" value="3" />
+                <label for="star-m1"></label>
+
+                <input type="radio" name="stars" id="star-n1" value="2" />
+                <label for="star-n1"></label>
+
+                <input type="radio" name="stars" id="star-o1" value="1" />
+                <label for="star-o1"></label>
+            </div>
+        </div>
+
+
+
+
+        
+
+
+
+
+
+
+
         <div class="column">
             <a href="https://www.jackjones.com/" target="blank">
                 <img class="bluz2" src="https://pa.namshicdn.com/product/95/2031/1-zoom-desktop.jpg">
@@ -167,7 +284,7 @@
         <div class="column2">
             <a href="https://www.bershka.com/am/" target="blank">
                 <img class="bluz3"
-                    src="https://assets.ajio.com/medias/sys_master/root/20210704/tfqL/60e0f309aeb269a9e3376214/-473Wx593H-462587924-yellow-MODEL.jpg">
+                    src="https://m.media-amazon.com/images/I/61DUX4uBEGL._UY445_.jpg">
                 <h3> Men's Yellow Blouse 69$</h3>
             </a>
             <!-- Bottom block-3 stars-Ներքևի բլոկ-3-ի աստղեր -->
@@ -191,9 +308,10 @@
         </div>
         <div class="column2">
             <a href="https://www.adidas.com/us" target="blank">
-                <img class="shoes2"
-                    src="https://www.efootwear.eu/media/catalog/product/cache/image/650x650//0/0/0000206763426_03_rz.jpg">
+                <img class="shoes3"
+                    src="https://5.imimg.com/data5/XT/YF/GF/SELLER-109858090/hi-speed-men-brown-sports-shoes-500x500.jpg">
 
+                    
                 <h3> Sport Shoes 123$ </h3>
             </a>
             <div class="star-rating2">
@@ -236,12 +354,50 @@
                 <label for="star-j2"></label>
             </div>
         </div>
+
+
+
+
+
+        <div class="column2">
+            <a href="https://www.adidas.com/us" target="blank">
+                <img class="shoes4"
+                    src="https://cf.shopee.in/file/ffb5882c8537b4f317d2b781c6e87569">
+
+                <h3> Sport Shoes 123$ </h3>
+            </a>
+            <div class="star-rating2">
+                <input type="radio" name="stars" id="star-k3" value="5" />
+                <label for="star-k3"></label>
+
+                <input type="radio" name="stars" id="star-l3" value="4" />
+                <label for="star-l3"></label>
+
+                <input type="radio" name="stars" id="star-m3" value="3" />
+                <label for="star-m3"></label>
+
+                <input type="radio" name="stars" id="star-n3" value="2" />
+                <label for="star-n3"></label>
+
+                <input type="radio" name="stars" id="star-o3" value="1" />
+                <label for="star-o3"></label>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
         <div class="column2">
             <a href="https://dalma.am/ru/stores/nike-armenia" target="blank">
                 <img class="bluz4"
                     src="https://rukminim1.flixcart.com/image/832/832/jqqy6q80/t-shirt/e/s/r/m-718834-480blue-nike-original-imafcp2udwnfcwyu.jpeg?q=70">
 
-                <h3>Men's Blue blue T-shirt 75$</h3>
+                <h3>Men's Blue T-shirt 75$</h3>
             </a>
             <div class="star-rating2">
                 <input type="radio" name="stars" id="star-p2" value="5" />
@@ -261,6 +417,154 @@
             </div>
         </div>
     </div>
+
+
+
+
+
+
+
+
+
+     <!-- Bottom block-4, pictures-Ներքևի բլոկ-4, նկարներ -->
+
+     <div class="row3">
+
+        <div class="column3">
+            <a href="https://www.bershka.com/am/" target="blank">
+                <img class="bluz5"
+                    src="https://assets.ajio.com/medias/sys_master/root/20210704/tfqL/60e0f309aeb269a9e3376214/-473Wx593H-462587924-yellow-MODEL.jpg">
+                <h3> Men's Yellow Blouse 69$</h3>
+            </a>
+            <!-- Bottom block-3 stars-Ներքևի բլոկ-3-ի աստղեր -->
+
+            <div class="star-rating3">
+                <input type="radio" name="stars" id="star-a3" value="5" />
+                <label for="star-a3"></label>
+
+                <input type="radio" name="stars" id="star-b3" value="4" />
+                <label for="star-b3"></label>
+
+                <input type="radio" name="stars" id="star-c3" value="3" />
+                <label for="star-c3"></label>
+
+                <input type="radio" name="stars" id="star-d10" value="2" />
+                <label for="star-d10"></label>
+
+                <input type="radio" name="stars" id="star-e10" value="1"/>
+                <label for="star-e10"></label>
+            </div>
+        </div>
+        <div class="column3">
+            <a href="https://www.adidas.com/us" target="blank">
+                <img class="shoes5"
+                    src="https://ae01.alicdn.com/kf/H5fbc488777c248ce852ae28075ee5b1bv/Male-Running-Shoes-Sneakers-for-Men-Breathable-Light-Man-Sport-Shoes-Comfortable-Mesh-Lace-up-Soft.jpg_Q90.jpg_.webp">
+
+                <h3> Sport Shoes 123$ </h3>
+            </a>
+            <div class="star-rating3">
+                <input type="radio" name="stars" id="star-k4" value="5" />
+                <label for="star-k4"></label>
+
+                <input type="radio" name="stars" id="star-l4" value="4" />
+                <label for="star-l4"></label>
+
+                <input type="radio" name="stars" id="star-m4" value="3" />
+                <label for="star-m4"></label>
+
+                <input type="radio" name="stars" id="star-n4" value="2" />
+                <label for="star-n4"></label>
+
+                <input type="radio" name="stars" id="star-o4" value="1" />
+                <label for="star-o4"></label>
+            </div>
+        </div>
+        <div class="column3">
+            <a href="https://www.armaniexchange.com/us" target="blank">
+                <img class="pants3" src="https://cdn.lookastic.ru/%D1%82%D0%B5%D0%BC%D0%BD%D0%BE-%D1%81%D0%B8%D0%BD%D0%B8%D0%B5-%D1%81%D0%BF%D0%BE%D1%80%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5-%D1%88%D1%82%D0%B0%D0%BD%D1%8B/adidas-original-3726884.jpg">
+
+                <h3> Red Pants For Men 64$ </h3>
+            </a>
+            <div class="star-rating3">
+                <input type="radio" name="stars" id="star-f5" value="5" />
+                <label for="star-f5"></label>
+
+                <input type="radio" name="stars" id="star-g5" value="4" />
+                <label for="star-g5"></label>
+
+                <input type="radio" name="stars" id="star-h5" value="3" />
+                <label for="star-h5"></label>
+
+                <input type="radio" name="stars" id="star-i5" value="2" />
+                <label for="star-i5"></label>
+
+                <input type="radio" name="stars" id="star-j5" value="1" />
+                <label for="star-j"></label>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="column3">
+            <a href="https://www.adidas.com/us" target="blank">
+                <img class="shoes6"
+                    src="https://image.shutterstock.com/image-photo/sport-shoes-260nw-269007500.jpg">
+
+                <h3> Sport Shoes 123$ </h3>
+            </a>
+            <div class="star-rating3">
+                <input type="radio" name="stars" id="star-k6" value="5" />
+                <label for="star-k6"></label>
+
+                <input type="radio" name="stars" id="star-l6" value="4" />
+                <label for="star-l6"></label>
+
+                <input type="radio" name="stars" id="star-m6" value="3" />
+                <label for="star-m6"></label>
+
+                <input type="radio" name="stars" id="star-n6" value="2" />
+                <label for="star-n6"></label>
+
+                <input type="radio" name="stars" id="star-o6" value="1" />
+                <label for="star-o6"></label>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+        <div class="column3">
+            <a href="https://dalma.am/ru/stores/nike-armenia" target="blank">
+                <img class="bluz6"
+                    src="https://gasoline.ie/wp-content/uploads/2018/04/ML201046A-GLOCK-BLACK-FRONT.jpg">
+
+                <h3>Men's Blue T-shirt 75$</h3>
+            </a>
+            <div class="star-rating3">
+                <input type="radio" name="stars" id="star-p7" value="5" />
+                <label for="star-p7"></label>
+
+                <input type="radio" name="stars" id="star-q7" value="4" />
+                <label for="star-q7"></label>
+
+                <input type="radio" name="stars" id="star-r7" value="3" />
+                <label for="star-r7"></label>
+
+                <input type="radio" name="stars" id="star-s7" value="2" />
+                <label for="star-s7"></label>
+
+                <input type="radio" name="stars" id="star-t7" value="1" />
+                <label for="star-t7"></label>
+            </div>
+        </div>
+    </div>
     <!-- bottom line and site endpoint-ներքևի գիծ և կայքի վերջնամաս-->
     <hr>
     <footer>
@@ -271,3 +575,4 @@
 
 
 </html>
+
