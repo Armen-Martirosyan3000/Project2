@@ -3,58 +3,197 @@
 <head>
 <style>
 .card {
-  display:inline-block;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 300px;
-  margin: auto;
+ display:inline-table;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   text-align: center;
   font-family: arial;
-  width: 15%;
-
+  float:left;
+  width: 16.6%;
 }
 
 .price {
-  color: grey;
-  font-size: 22px;
- 
+  color: blue;
+  font-size: 20px;
 }
 
 .card button {
   border: none;
   outline: 0;
-  padding: 12px;
+  padding: 3%;
   color: white;
-  background-color: #000;
-  text-align: center;
+  background-color: rgb(113, 113, 239);
   cursor: pointer;
   width: 100%;
-  font-size: 18px;
+  font-size: 100%;
   
 }
 
 .card button:hover {
-  opacity: 0.7;
+  background: orange;
+  color: black;
 }
+
+.card1 button {
+  border: none;
+  outline: 0;
+  padding: 3%;
+  color: white;
+  background-color: rgb(113, 113, 239);
+  cursor: pointer;
+  width: 100%;
+  font-size: 100%; 
+}
+.card1 {
+  display:inline-table;
+ box-shadow: 0 4px 8px 0  rgba(0, 0, 0, 0.2);
+ text-align: center;
+  font-family: arial;
+  float:left;
+  width: 16.6%;
+}
+.card1 button:hover{
+  background: orange;
+  color: black;
+}
+h2{
+  font-size: 270%;
+  color: blue;
+}
+h1{
+  font-size: 120%;
+  text-align: center;
+}
+
+a:link {
+  text-decoration: none;
+}
+.butt{
+  color: rgb(37, 36, 36);
+}
+
+.butt1 {
+  padding: 5px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: rgb(130, 195, 31);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 6px rgb(48, 46, 46);
+  margin-top: 0%;
+  margin-left: 1%;
+}
+
+.butt1:hover {
+  background-color: blue;
+  font-size: 18px;
+  box-shadow: 0 6px rgb(128, 208, 8);
+  
+}
+.butt:hover{
+  color: white;
+}
+
+.butt1:active {
+  background-color: orange;
+  box-shadow: 0 5px rgb(40, 39, 39);
+  transform: translateY(4px);
+}
+
 </style>
 </head>
 <body>
-
+  <!--Top block-վերևի բլոկ-->
+  <button class="butt1">
+    <a href="index.html" target="_blank"><li class="butt">Home</li> </a>
+</button>
 <h2 style="text-align:center">Product Card</h2>
 
 <div class="card">
   <img src="https://i.pinimg.com/736x/e7/16/28/e71628b2fed3937d41c4bc84e9d0a645.jpg" alt="Denim Jeans" style="width:100%">
-  <h1>Tailored Jeans</h1>
-  <p class="price">$19.99</p>
-  <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+  <h1>T-shirt For Men</h1>
+  <p class="price">$82</p>
+  <p>with a lot of quality</p>
   <p><button>Add to Cart</button></p>
 </div>
 <div class="card">
-  <img src="https://5.imimg.com/data5/JA/NN/MY-43716044/mens-stylish-polo-t-shirt-500x500.jpg" alt="Denim Jeans" style="width:100%">
-  <h1>Tailored Jeans</h1>
-  <p class="price">$19.99</p>
-  <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+  <img src="https://m.media-amazon.com/images/I/512ZrTGH4mL.jpg" alt="Denim Jeans" style="width:100%">
+  <h1>Sport Shoes For Men</h1>
+  <p class="price">$90</p>
+  <p>with a lot of quality</p>
+  <p><button>Add to Cart</button></p>
+</div>
+<div class="card">
+  <img src="https://cdn.modesens.com/product/6050478" alt="Denim Jeans" style="width:100%">
+  <h1>Sport Pants For Men</h1>
+  <p class="price">$93</p>
+  <p>with a lot of quality</p>
+  <p><button>Add to Cart</button></p>
+</div>
+<div class="card">
+  <img src="https://m.media-amazon.com/images/I/713xtSRwAxL._UL1500_.jpg" alt="Denim Jeans" style="width:100%">
+  <h1>Sport Pants For Men</h1>
+  <p class="price">$104</p>
+  <p>with a lot of quality</p>
+  <p><button>Add to Cart</button></p>
+</div>
+<div class="card">
+  <img src="https://5.imimg.com/data5/VT/EJ/KT/SELLER-3678405/wonder-11-eva-sports-shoes-men-500x500.jpeg" alt="Denim Jeans" style="width:100%">
+  <h1>Sport Shoes For Men</h1>
+  <p class="price">$125</p>
+  <p>with a lot of quality</p>
+  <p><button>Add to Cart</button></p>
+</div>
+<div class="card">
+  <img src="https://m.media-amazon.com/images/I/71LMRScpeeL._UX522_.jpg" alt="Denim Jeans" style="width:100%">
+  <h1>T-shirt For Men</h1>
+  <p class="price">$73</p>
+  <p>with a lot of quality</p>
   <p><button>Add to Cart</button></p>
 </div>
 
+<!--bottom block-ներքևի բլոկ-->
+
+<div class="card1">
+  <img src="https://i.ebayimg.com/images/g/opoAAOSwmyNdlW7J/s-l500.jpg" alt="Denim Jeans" style="width:100%">
+  <h1>T-shirt For Men</h1>
+  <p class="price">$90</p>
+  <p>with a lot of quality</p>
+  <p><button>Add to Cart</button></p>
+</div>
+<div class="card1">
+  <img src="https://4.imimg.com/data4/AU/TE/MY-1617976/men-sport-shoes-500x500.jpg" alt="Denim Jeans" style="width:100%">
+  <h1>Sport Shoes For Men</h1>
+  <p class="price">$117</p>
+  <p>with a lot of quality</p>
+  <p><button>Add to Cart</button></p>
+</div>
+<div class="card1">
+  <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/0cc50c1d-decb-455e-b662-64ad8a603a45/sportswear-tech-fleece-mens-joggers-4x29ft.png" alt="Denim Jeans" style="width:100%">
+  <h1>Sport Pants For Men</h1>
+  <p class="price">$104</p>
+  <p>with a lot of quality</p>
+  <p><button>Add to Cart</button></p>
+</div>
+<div class="card1">
+  <img src="https://images.puma.net/images/531178/01/mod01/fnd/AUS/w/1000/h/1000/bg/255,255,255" alt="Denim Jeans" style="width:100%">
+  <h1>Sport Pants For Men</h1>
+  <p class="price">$93</p>
+  <p>with a lot of quality</p>
+  <p><button>Add to Cart</button></p>
+</div>
+<div class="card1">
+  <img src="https://5.imimg.com/data5/SELLER/Default/2020/11/YD/RF/QL/1721019/g32-500x500.JPG" alt="Denim Jeans" style="width:100%">
+  <h1>Sport Shoes For Men</h1>
+  <p class="price">$86</p>
+  <p>with a lot of quality</p>
+  <p><button>Add to Cart</button></p>
+</div>
+<div class="card1">
+  <img src="https://5.imimg.com/data5/MU/DB/EY/SELLER-84023303/chrysolite-branded-plain-t-shirt-in-black-500x500.jpg" alt="Denim Jeans" style="width:100%">
+  <h1>T-shirt For Men</h1>
+  <p class="price">$97</p>
+  <p>with a lot of quality</p>
+  <p><button>Add to Cart</button></p>
+</div>
 </body>
 </html>

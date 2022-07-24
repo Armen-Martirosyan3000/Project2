@@ -1,178 +1,182 @@
 <!DOCTYPE html>
 <html>
 <style>
-body {font-family: Arial, Helvetica, sans-serif;
-  box-sizing: border-box;
-  width: 30%;
-}
-
-
-/* Full-width input fields */
-input[type=text], input[type=password] {
-  width: 170%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
-  display: inline-block;
-  border: 1px solid blue;
-  background: #f1f1f1;
-}
-
-input[type=text]:focus, input[type=password]:focus {
-  background-color: #ddd;
-  outline: none;
-}
-
-
-
-/* Set a style for all buttons */
-button {
-  background-color: rgb(56, 56, 234);
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  opacity: 0.9;
-  
-}
-
-
-
-/* Extra styles for the cancel button */
-.cancelbtn {
-  padding: 14px 20px;
-  background-color: #FF0091;
-  
-}
-
-/* Float cancel and signup buttons and add an equal width */
-.cancelbtn, .signupbtn {
-  float: left;
-  width: 50%;
-
-}
-.cancelbtn:hover{
-  background-color: orange
-
-}
-.signupbtn:hover{
-  background-color: rgb(128, 208, 8); 
-} 
-
-/* Add padding to container elements */
-.container {
-  padding: 16px;
-  width: 50%;
-}
-
-/* Clear floats */
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
-  width: 100%;
-}
-.clearfix{
-  width: 120%;
-}
-
-/* Change styles for cancel button and signup button on extra small screens */
-@media screen and (max-width: 300px) {
-  .cancelbtn, .signupbtn {
-     width: 100%;
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin-left: 33%;
+    width: 35%;
   }
-}
 
-h1{
-  font-size: 26px;
-  color:blue;
-}
-a:link {
-  text-decoration: none;
-  
-}
+  /* Full-width input fields */
+  input[type=text],
+  input[type=password] {
+    width: 175%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: 1px solid blue;
+    background: #f1f1f1;
 
-.butt{
-  color: black;
-}
+  }
 
-.butt1 {
-  padding: 5px 15px;
-  font-size: 16px;
-  cursor: pointer;
-  background-color: rgb(130, 195, 31);
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 6px rgb(48, 46, 46);
-  margin-left: 1%;
-}
+  input[type=text]:focus,
+  input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
 
-.butt1:hover {
-  background-color: blue;
-  font-size: 18px;
-  box-shadow: 0 6px orange;
-  color: red;
-}
-.butt:hover{
-  color: white;
-}
+  }
 
+  /* Set a style for all buttons */
+  button {
+    background-color: rgb(56, 56, 234);
+    color: white;
+    padding: 14px 20px;
+    margin: 5% 0;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+    font-size: 100%;
 
+  }
 
-.butt1:active {
-  background-color: orange;
-  box-shadow: 0 5px rgb(40, 39, 39);
-  transform: translateY(4px);
-}
-.nnn{
-  width: 100%;
-}
+  /* Extra styles for the cancel button */
+  .cancelbtn {
+    padding: 14px 20px;
+    background-color: #FF0091;
 
-p{
-  width: 180%;
-}
-.lab{
-  margin-left: 0%;
-}
+  }
 
+  /* Float cancel and signup buttons and add an equal width */
+  .cancelbtn,
+  .signupbtn {
+    float: left;
+    width: 50%;
+  }
 
+  .cancelbtn:hover {
+    background-color: orange;
+    color: black;
 
+  }
 
+  .signupbtn:hover {
+    background-color: orange;
+    color: black;
 
+  }
 
+  /* Add padding to container elements */
+  .container {
+    padding: 16px;
+    width: 50%;
+  }
+
+  /* Clear floats */
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+    width: 100%;
+  }
+
+  .clearfix {
+    width: 120%;
+  }
+
+  /* Change styles for cancel button and signup button on extra small screens */
+  @media screen and (max-width: 300px) {
+
+    .cancelbtn,
+    .signupbtn {
+      width: 100%;
+    }
+  }
+
+  h1 {
+    font-size: 190%;
+    color: blue;
+  }
+
+  a:link {
+    text-decoration: none;
+
+  }
+
+  .butt {
+    color: black;
+  }
+
+  .butt1 {
+    padding: 5px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: rgb(130, 195, 31);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 6px rgb(48, 46, 46);
+    margin-left: 1%;
+  }
+
+  .butt1:hover {
+    background-color: blue;
+    font-size: 18px;
+    box-shadow: 0 6px orange;
+    color: red;
+  }
+
+  .butt:hover {
+    color: white;
+  }
+
+  .butt1:active {
+    background-color: orange;
+    box-shadow: 0 5px rgb(40, 39, 39);
+    transform: translateY(4px);
+  }
+
+  p {
+    width: 170%;
+  }
+
+  .lab {
+    margin-left: 0%;
+  }
 </style>
+
 <body>
   <button class="butt1">
-    <a href="index.html" target="_blank"><li class="butt">Home</li> </a>
-</button>
-<form class="nnn" action=" " style="border:1px solid #ccc">
- 
-  <div class="container">
-    <h1>Sign Up</h1>
-    
- 
+    <a href="index.html" target="_blank">
+      <li class="butt">Home</li>
+    </a>
+  </button>
+  <form class="nnn" action=" " style="border:1px solid #ccc">
 
-    <label for="email"><b>Email</b></label>
-    <input type="text" placeholder="Enter Email" name="email" required>
+    <div class="container">
+      <h1>Sign Up</h1>
 
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
 
-    <label for="psw-repeat"><b>Repeat Password</b></label>
-    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
-    
-    <label class="lab1" >
-      <input class="lab" type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me 
-    </label>
-    
-    <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
 
-    <div class="clearfix">
-      <button type="button" class="cancelbtn">Cancel</button>
-      <button type="submit" class="signupbtn">Sign Up</button>
+      <label for="psw-repeat"><b>Repeat Password</b></label>
+      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+
+      <label class="lab1">
+        <input class="lab" type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+      </label>
+
+      <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+      <div class="clearfix">
+        <button type="button" class="cancelbtn">Cancel</button>
+        <button type="submit" class="signupbtn">Sign Up</button>
+      </div>
     </div>
-  </div>
-</form>
+  </form>
 
 </body>
+
 </html>
