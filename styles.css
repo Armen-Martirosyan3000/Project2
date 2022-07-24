@@ -614,13 +614,17 @@ hr {
 
 .butt2 {
   border: 1px ridge rgb(2, 150, 150);
-  background: yellow;
+background-color: yellow;
 }
 
 .butt2:hover {
   background-color: #00FF36;
   font-size: 150%;
 
+}
+/*facebook-ի և մյուսների icon-ներ*/
+.face{
+  width: 47px;  
 }
 
 /*MEDIA-սա մեդիա է, օրինակ հեռախոսների դեպքում էկրանի լայնքը 600px-ից
