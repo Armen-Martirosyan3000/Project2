@@ -12,7 +12,7 @@
 body {
   background-image: url(https://thumbs.dreamstime.com/b/%D1%81%D0%BF%D0%B8%D1%80%D0%B0%D0%BB%D1%8C-%D1%81%D0%BE%D0%BB%D0%BD%D0%B5%D1%87%D0%BD%D0%BE%D0%B3%D0%BE-%D1%81%D0%B2%D0%B5%D1%82%D0%B0-%D0%B8%D0%B7%D0%BB%D1%83%D1%87%D0%B0%D0%B5%D1%82-%D1%84%D0%BE%D0%BD-%D0%B3%D0%BE%D0%BB%D1%83%D0%B1%D0%B0%D1%8F-%D0%B8-%D0%B1%D0%B5%D0%BB%D0%B0%D1%8F-%D1%81%D0%B8%D0%B3%D0%BD%D0%B0%D0%BB%D0%B0-195962027.jpg);
   background-repeat: no-repeat;
-  background-size: 133%;
+  background-size: 145%;
   margin: 0;
   padding: 0;
 }
@@ -20,7 +20,7 @@ body {
 /*heder-վերնագիր*/
 .ttt {
   text-align: center;
-  font-size: 200%;
+  font-size: 170%;
   font-family: 'Lemon', cursive;
   color: red;
   margin: 0 auto;
@@ -333,7 +333,7 @@ a:link {
   width: 160px;
   flex-direction: row-reverse;
   justify-content: space-between;
-  margin: 0% auto;
+  margin: 20% auto;
   position: relative;
 
 }
@@ -442,7 +442,7 @@ a:link {
   width: 160px;
   flex-direction: row-reverse;
   justify-content: space-between;
-  margin: 0% auto;
+  margin: 20% auto;
   position: relative;
 }
 
@@ -544,7 +544,7 @@ a:link {
   width: 160px;
   flex-direction: row-reverse;
   justify-content: space-between;
-  margin: 0% auto;
+  margin: 20% auto;
   position: relative;
 }
 
